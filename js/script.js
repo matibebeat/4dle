@@ -70,8 +70,16 @@ function makeaguess() {
         td_rank.style.backgroundColor = green;
     }
     else {
+
         td_rank.style.backgroundColor = "red";
-        td_rank.className = "up";
+        if (user[1] > Choice_user_data[1]) {
+            td_rank.style.backgroundImage = "url('../img/down.png')";
+        }
+        else{
+        td_rank.style.backgroundImage = "url('../img/up.png')";}
+        td_rank.style.backgroundSize = "contain";
+        td_rank.style.backgroundRepeat = "no-repeat";
+        td_rank.style.backgroundPosition = "center";
     }
 
     td_hair.innerHTML = user[2];
@@ -101,13 +109,15 @@ function makeaguess() {
         td_height.style.backgroundColor = green;
     }
     else {
-        const distance = Math.abs(user[3] - Choice_user_data[3]); // Distance par rapport à la hauteur cible (170cm)
-
-        // Calcul de la couleur en fonction de la distance
-        const red = Math.floor(255 * (distance / 30));
-        const green = Math.floor(255 - (255 * (distance / 30)));
-        console.log(red, green);
-        td_height.style.backgroundColor = "rgb(" + red + "," + green + ",0)";
+        td_height.style.backgroundColor = "red";
+        if (user[3] > Choice_user_data[3]) {
+            td_height.style.backgroundImage = "url('../img/down.png')";
+        }
+        else{
+        td_height.style.backgroundImage = "url('../img/up.png')";}
+        td_height.style.backgroundSize = "contain";
+        td_height.style.backgroundRepeat = "no-repeat";
+        td_height.style.backgroundPosition = "center";
     }
 
     td_gamer.innerHTML = user[7];
@@ -116,6 +126,14 @@ function makeaguess() {
     }
     else {
         td_gamer.style.backgroundColor = "red";
+        if (user[7] > Choice_user_data[7]) {
+            td_gamer.style.backgroundImage = "url('../img/down.png')";
+        }
+        else{
+        td_gamer.style.backgroundImage = "url('../img/up.png')";}
+        td_gamer.style.backgroundSize = "contain";
+        td_gamer.style.backgroundRepeat = "no-repeat";
+        td_gamer.style.backgroundPosition = "center";
     }
 
     td_hand.innerHTML = user[4];
