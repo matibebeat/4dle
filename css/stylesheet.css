@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-.navebar{
+.navebar {
     display: flex;
     flex-direction: row;
     background-color: #0e0e0e;
@@ -8,22 +8,25 @@
     justify-content: center;
     padding-right: 5%;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin:0%;
+    margin: 0%;
     background-color: black;
 }
-.navebar li{
+
+.navebar li {
     list-style-type: none;
     padding: 1%;
     padding-right: 2%;
     padding-left: 2%;
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
-.navebar li:hover{
+
+.navebar li:hover {
     background-color: #808080;
     border-radius: 1px;
 }
@@ -34,34 +37,40 @@ body{
 
 
 
-.navebar li a{
+.navebar li a {
     text-decoration: none;
     color: white;
-    
+
 }
 
-th, td{
+th,
+td {
     justify-content: center;
-    width:100px;
+    width: 100px;
     height: 100px;
     background-color: #ffa31a;
     border-radius: 15px;
 }
 
-table{
+
+
+
+
+
+table {
     position: absolute;
-    left:20%;
-    width:60%;
+    left: 20%;
+    width: 60%;
 }
 
-#title {
-    color :white;
+#logo {
+    color: white;
 }
 
 #title_end {
-    background-color :#ffa31a;
+    background-color: #ffa31a;
     border-radius: 5px;
-    color :black;
+    color: black;
     padding-right: 4px;
     padding-left: 4px;
     margin-left: 2px;
@@ -69,28 +78,28 @@ table{
 
 
 
-footer{
-    padding:0;
-    box-shadow:0 2px 4px #808080;
-    background-color:#1b1b1b;
-    width:100%;
-    position:fixed;
-    display:block;
-    bottom:0;
+footer {
+    padding: 0;
+    box-shadow: 0 2px 4px #808080;
+    background-color: #1b1b1b;
+    width: 100%;
+    position: fixed;
+    display: block;
+    bottom: 0;
     text-align: center;
     font-size: 1.5em;
 }
 
-footer a{
-    font-size:1.2em;
+footer a {
+    font-size: 1.2em;
     font-family: 'Courier New', Courier, monospace;
-    color:#808080;
+    color: #808080;
 
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-footer a:hover{
-    color:#ffa31a;
+footer a:hover {
+    color: #ffa31a;
 }
 
 
@@ -99,8 +108,8 @@ footer a:hover{
 
 
 
-p#index{
-    color:white;
+p#index {
+    color: white;
     text-align: justify;
     font-size: 30px;
     background-color: #0e0e0e;
@@ -114,10 +123,10 @@ p#index{
 }
 
 
-h2#title{
+h2#title {
     font-size: 74px;
     text-align: left;
-    color:#808080;
+    color: #808080;
     background-color: #0e0e0e;
     width: auto;
     padding-top: 20%;
@@ -125,43 +134,36 @@ h2#title{
     padding-left: 5%;
     border-radius: 15px;
     margin-bottom: 20%;
-    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.5)), url("../img/logo2.png");
-    background-size:contain;
+    background-image: linear-gradient(0.9turn, rgba(47, 51, 46, 0.5) 30%, rgba(255, 163, 26, 0.5)), url("../img/logo2.png");
+    background-size: contain;
+    border-bottom: 5px solid #ffa31a;
 }
-h2#maxime{
+
+
+
+
+h3 {
     font-size: 74px;
     text-align: left;
-    color:white;
-    background-color: #0e0e0e;
-    width: auto;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    padding-left: 5%;
-    border-radius: 15px;
-    margin-bottom: 20%;
-    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.8)), url("../img/maxime.jpg");
-    background-size:contain;
-}
-h3{
-    font-size: 74px;
-    text-align: left;
-    color:white;
+    color: white;
     padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 5%;
 }
-section{
+
+section {
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
-article{
+article {
     border-radius: 15px;
-    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.5));
+    background-image: linear-gradient(0.9turn, rgba(47, 51, 46, 0.5) 30%, rgba(255, 163, 26, 0.5));
 }
-article p{
-    color:#E1E5E7 ;
+
+article p {
+    color: #E1E5E7;
     text-align: justify;
     font-size: 30px;
 
@@ -173,8 +175,8 @@ article p{
     border-radius: 15px;
 }
 
-article form{
-    color:#E1E5E7 ;
+article form {
+    color: #E1E5E7;
     font-size: 30px;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -185,27 +187,29 @@ article form{
     border-radius: 15px;
 }
 
-article form fieldset{
+article form fieldset {
     border: 4px solid #E1E5E7;
     text-align: center;
     width: 100%;
-    
+
 }
-article form fieldset label{
+
+article form fieldset label {
     clear: both;
-    float:left;
+    float: left;
     text-align: right;
 
 }
 
 
-input, select,input[type=button]{
+input,
+select,
+input[type=button] {
     width: 50%;
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
-    text-emphasis: center;
     /*desactivate the default style*/
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -222,17 +226,20 @@ input {
     margin-top: 10px;
     float: right;
 }
+
 input[type=button] {
-    float:none;
+    float: none;
 }
+
 select {
     border: 1px solid #000;
     margin-top: 10px;
     float: right;
 }
 
-#sexe_div, #hand_div{
-    width:50%;
+#sexe_div,
+#hand_div {
+    width: 50%;
     display: flex;
     flex-direction: row;
     float: right;
@@ -240,8 +247,8 @@ select {
 
 
 
-  
-  .slider {
+
+.slider {
     -webkit-appearance: none;
     height: 50px;
     background: #d3d3d3;
@@ -250,13 +257,13 @@ select {
     -webkit-transition: .2s;
     transition: opacity .2s;
     border-radius: 5px;
-  }
-  
-  .slider:hover {
+}
+
+.slider:hover {
     opacity: 1;
-  }
-  
-  .slider::-webkit-slider-thumb {
+}
+
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
@@ -264,22 +271,22 @@ select {
     background: #ffa31a;
     cursor: pointer;
     border-radius: 50%;
-  }
-  
-  .slider::-moz-range-thumb {
+}
+
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: #ffa31a;
     cursor: pointer;
-  }
+}
 
-  button{
+button {
     width: 50%;
     height: 50px;
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
-    text-emphasis: center;
+
     /*desactivate the default style*/
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -288,19 +295,28 @@ select {
     color: #E1E5E7;
     margin-top: 10px;
     float: right;
-  }
+}
 
-  button:hover{
+button:hover {
     background-color: #ffa31a;
     color: #000;
-  }
-#maxime{
-    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.5)), url("../img/maxime.jpg");
-    background-size:cover
 }
-#mathis{
-    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.5)), url("../img/mathis.jpeg");
-    background-size:cover}
+
+#maxime {
+    background-image: linear-gradient(0.9turn, rgba(47, 51, 46, 0.5) 30%, rgba(255, 163, 26, 0.5)), url("../img/maxime.jpg");
+    background-size: cover
+}
+#maxime:hover{
+    cursor: pointer;
+}
+
+#mathis {
+    background-image: linear-gradient(0.9turn, rgba(47, 51, 46, 0.5) 30%, rgba(255, 163, 26, 0.5)), url("../img/mathis.jpeg");
+    background-size: cover
+}
+#mathis:hover{
+    cursor: pointer;
+}
 
 
 
@@ -308,25 +324,29 @@ select {
 /*make a responsive page*/
 
 @media screen and (max-width: 768px) {
-    .navebar{
+    .navebar {
         display: flex;
         flex-direction: column;
         font-size: 1em;
     }
 
-    header{
+    header {
         top: 0px;
     }
-    h2#title{
+
+    h2#title {
         font-size: 1em;
     }
-    p#index{
+
+    p#index {
         font-size: 0.9em;
     }
-    h3{
+
+    h3 {
         font-size: 2em;
     }
-    article p{
+
+    article p {
         font-size: 1em;
         padding-bottom: 5%;
         padding-left: 5%;
@@ -335,7 +355,8 @@ select {
         margin-bottom: 15%;
         border-radius: 15px;
     }
-    section{
+
+    section {
         padding-bottom: 75px;
     }
 }
