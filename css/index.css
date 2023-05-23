@@ -1,0 +1,33 @@
+p{   
+    color:white;
+    text-align: justify;
+    font-size: 30px;
+    background-color: #0e0e0e;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2;
+    margin-bottom: 15%;
+    border-radius: 15px; 
+}
+
+h2{
+    font-size: 74px;
+    text-align: left;
+    color:white;
+    background-color: #0e0e0e;
+    width: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    border-radius: 15px;
+    margin-bottom: 20%;
+    background-image:linear-gradient(0.9turn,rgba(47, 51, 46, 0.5) 30%, rgba(255,163,26, 0.5)), url("../img/logo2.png");
+    background-size:contain;
+}
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}

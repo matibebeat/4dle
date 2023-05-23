@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <h1 id="title">Int<span id="title_end">4</span></h1>
+        <ul class="navebar">
+            <li ><a href="/html/index.html">Home</a></li>
+            <li><a href="/html/about.html">About</a></li>
+            <li><a href="/html/4dle.html">Play</a></li>
+            <li style="border-bottom: #ffa31a solid 5px;"><a href="/html/compatible.html">Sommes nous compatibles?</a></li>
+            <li><a href="/html/us.html">Us</a></li>
+        </ul>
+    </header>
+    <section>
+        <article id="result">
+
+        </article>
+        <article id="match">
+            <h3>You want to know your perfect match?</h3>
+            <form method="post" name="findMatch" action="#" id="form" onsubmit="return false" >
+                <fieldset>
+                    <legend>Give me some informations about your physique</legend>
+                    <label for="hair">What is your hair color?</label>
+                    <select name="hair" id="hair">
+                        <option value="blond">Blond</option>
+                        <option value="brun">Brun</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                        <option value="white">White</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="eyes">What is your eyes color?</label>
+                    <select name="eyes" id="eyes">
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="brown">Brown</option>
+                        <option value="black">Black</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="height">What is your height?    <strong><span id="size">150</span> cm</strong></label>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="250" value="150" class="slider" id="myRange">
+                    </div>
+
+                    <label for="sexe">What is your sex?</label>
+                    <div id="sexe_div">
+                        <input class="btn" id="masculin" value="Masculin" onclick="switchSexe('M')">
+                        <input class="btn" id="feminin" value="Feminin" onclick="switchSexe('F')">
+                    </div>
+                    
+
+                </fieldset>
+                <fieldset>
+                    <legend>Now we will talk about your life</legend>
+                    <label for="hobby">What is your passion?</label>
+                    <select name="hobby" id="hobby">
+                        <option value="sport">Sport</option>
+                        <option value="music">Music</option>
+                        <option value="cinema">Cinema</option>
+                        <option value="reading">Reading</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="gamer">Are you a gamer?</label>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="5" value="3" step="1" class="slider" id="gamer">
+                    </div>
+                    <label for="rank">What was your rank last semester? <strong><span id="rank">150</span></strong></label>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="400" value="150" class="slider" id="Ranking">
+                    </div>
+                    <label for="handed">Are you left or right handed?</label>
+                    <div id="hand_div">
+                        <input class="btn" id="left" value="left" onclick="switchHand('L')">
+                        <input class="btn" id="right" value="right" onclick="switchHand('G')">
+                    </div>
+                </fieldset>
+    
+                <button type="submit" onclick="findmatch()">find the perfect match</button>
+    
+            </form>
+        </article>
+
+
+
+
+    </section>
+    <script src="../js/compaptibilite.js"></script>
+    <footer>
+        <div>
+            <strong>
+            <a href="4dle.html">Play</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="us.html">Us</a>
+            <a href="compatible.html">Sommes nous compatibles?</a>
+            </strong>
+        </div>
+    </footer>
+</body>
+</html>
