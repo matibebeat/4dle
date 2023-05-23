@@ -73,10 +73,10 @@ function makeaguess() {
 
         td_rank.style.backgroundColor = "red";
         if (user[1] > Choice_user_data[1]) {
-            td_rank.style.backgroundImage = "url('../img/down.png')";
+            td_rank.style.backgroundImage = "url('../img/up.png')";
         }
         else{
-        td_rank.style.backgroundImage = "url('../img/up.png')";}
+        td_rank.style.backgroundImage = "url('../img/down.png')";}
         td_rank.style.backgroundSize = "contain";
         td_rank.style.backgroundRepeat = "no-repeat";
         td_rank.style.backgroundPosition = "center";
