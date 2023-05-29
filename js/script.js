@@ -11,7 +11,7 @@ const users = {
     "Mathieu": ["Green", 265, "Black", 173, "left", "sport", "M", 4],
     "Tony": ["Brown", 0, "Brown", 173, "right", "games", "M", 5],
     "Vianney": ["Brown", 37, "Grey", 183, "right", "games", "M", 4],
-    "Romain": ["Green", 0, "Brown", 171, "Right", "sport", "M", 4],
+    "Romain": ["Green", 0, "Brown", 171, "right", "sport", "M", 4],
     "Mathis": ["Brown", 225, "Brown", 168, "right", "sport", "M", 1],
     "Eyfeline": ["Brown", 1, "Blond", 160, "right", "games", "F", 5],
     "Kevin": ["Brown", 277, "Brown", 155, "right", "games", "M", 5],
