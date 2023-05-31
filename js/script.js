@@ -186,7 +186,10 @@ function makeaguess() {
     title.innerHTML = tryes;
     if (user == Choice_user_data) {
         alert("You win");
-        return;
+        var btn=document.getElementsByTagName("input");
+        for(var i=0;i<btn.length;i++){
+            btn[i].disabled=true;
+        }
     }
 }
 

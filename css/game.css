@@ -1,48 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-
-
-
-th, td{
-    justify-content: center;
-    width:100px;
-    height: 100px;
-    background-color: #ffa31a;
-    border-radius: 15px;
-}
-
-table{
-    position: absolute;
-    left:20%;
-    width:60%;
-}
-
-
-input[type=text]{
-    width: 20%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 2px solid #ffa31a;
-    background-color: #0e0e0e;
-    color: white;
-    font-size: 1.5em;
-    appearance: none;
-}
-
-
 @media screen and (max-width: 768px) {
-    table{
-        position: absolute;
-        left:0%;
+
+    .navebar {
+        display: none;
     }
-    .navebar{
-        display: flex;
-        flex-direction: column;
-        font-size: 1em;
-
-    }
-
-
 }

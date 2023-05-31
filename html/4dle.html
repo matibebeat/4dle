@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4dle</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="stylesheet" href="../css/game.css">
     <link rel="shortcut icon" href="../img/4dle.png" type="image/png">
     <script src="../js/script.js"></script>
-    <script src="../json/player.json"></script>
 </head>
 
 <body>
@@ -23,31 +23,32 @@
             <li><a href="../html/us.html">Us</a></li>
         </ul>
     </header>
-    <form method="post" name="guess" action="#" onsubmit="return false">
-        <input type="text" id="name" list="names" placeholder="Enter Here">
-        <datalist id="names">
-        </datalist>
-        <input class="btn" type="submit" value="make a guess" onclick="makeaguess()">
-    </form>
-    <div id="scroll">
+    <section>
+        <form method="post" name="guess" action="#" onsubmit="return false">
+            <input type="text" id="name" list="names" placeholder="Enter Here">
+            <datalist id="names">
+            </datalist>
+            <input class="btn" type="submit" value="make a guess" onclick="makeaguess()">
+        </form>
+
         <table id="guesses">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Eye color</th>
-                    <th>Ranking</th>
-                    <th>Hair color</th>
-                    <th>Height</th>
-                    <th>gamer/5?</th>
-                    <th>?-Handed</th>
-                    <th>Favorite activity</th>
-                    <th>Sex</th>
+                    <th><span>Name</span></th>
+                    <th><span>Eye color</span></th>
+                    <th><span>Ranking</span></th>
+                    <th><span>Hair color</span></th>
+                    <th><span>Height</span></th>
+                    <th><span>gamer/5?</span></th>
+                    <th><span>?-Handed</span></th>
+                    <th><span>Favorite activity</span></th>
+                    <th><span>Sex</span></th>
                 </tr>
             </thead>
             <tbody>
             </tbody>
         </table>
-    </div>
+    </section>
     <footer>
         <div>
             <strong>
